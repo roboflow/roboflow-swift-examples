@@ -16,8 +16,8 @@
 		E451C2432A2FF5370068F80E /* RoboflowExampleAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E451C2422A2FF5370068F80E /* RoboflowExampleAppTests.swift */; };
 		E451C24D2A2FF5370068F80E /* RoboflowExampleAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E451C24C2A2FF5370068F80E /* RoboflowExampleAppUITests.swift */; };
 		E451C24F2A2FF5370068F80E /* RoboflowExampleAppUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E451C24E2A2FF5370068F80E /* RoboflowExampleAppUITestsLaunchTests.swift */; };
-		E451C25D2A2FF5480068F80E /* Roboflow in Frameworks */ = {isa = PBXBuildFile; productRef = E451C25C2A2FF5480068F80E /* Roboflow */; };
 		E451C25F2A2FF5A60068F80E /* DispatchTimeInterval+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = E451C25E2A2FF5A60068F80E /* DispatchTimeInterval+Extension.swift */; };
+		E459048D2A3544B500085452 /* Roboflow in Frameworks */ = {isa = PBXBuildFile; productRef = E459048C2A3544B500085452 /* Roboflow */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -59,7 +59,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E451C25D2A2FF5480068F80E /* Roboflow in Frameworks */,
+				E459048D2A3544B500085452 /* Roboflow in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -149,7 +149,7 @@
 			);
 			name = RoboflowExampleApp;
 			packageProductDependencies = (
-				E451C25C2A2FF5480068F80E /* Roboflow */,
+				E459048C2A3544B500085452 /* Roboflow */,
 			);
 			productName = RoboflowExampleApp;
 			productReference = E451C2282A2FF5360068F80E /* RoboflowExampleApp.app */;
@@ -224,7 +224,7 @@
 			);
 			mainGroup = E451C21F2A2FF5360068F80E;
 			packageReferences = (
-				E451C25B2A2FF5480068F80E /* XCRemoteSwiftPackageReference "roboflow-swift" */,
+				E459048B2A3544B500085452 /* XCRemoteSwiftPackageReference "roboflow-swift" */,
 			);
 			productRefGroup = E451C2292A2FF5360068F80E /* Products */;
 			projectDirPath = "";
@@ -616,9 +616,9 @@
 /* End XCConfigurationList section */
 
 /* Begin XCRemoteSwiftPackageReference section */
-		E451C25B2A2FF5480068F80E /* XCRemoteSwiftPackageReference "roboflow-swift" */ = {
+		E459048B2A3544B500085452 /* XCRemoteSwiftPackageReference "roboflow-swift" */ = {
 			isa = XCRemoteSwiftPackageReference;
-			repositoryURL = "file:///Users/nicholasarner/Development-Active/Freelance/Roboflow/roboflow-swift";
+			repositoryURL = "https://github.com/roboflow/roboflow-swift";
 			requirement = {
 				branch = main;
 				kind = branch;
@@ -627,9 +627,9 @@
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
-		E451C25C2A2FF5480068F80E /* Roboflow */ = {
+		E459048C2A3544B500085452 /* Roboflow */ = {
 			isa = XCSwiftPackageProductDependency;
-			package = E451C25B2A2FF5480068F80E /* XCRemoteSwiftPackageReference "roboflow-swift" */;
+			package = E459048B2A3544B500085452 /* XCRemoteSwiftPackageReference "roboflow-swift" */;
 			productName = Roboflow;
 		};
 /* End XCSwiftPackageProductDependency section */

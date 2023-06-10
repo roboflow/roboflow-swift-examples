@@ -2,11 +2,11 @@
   "pins" : [
     {
       "identity" : "roboflow-swift",
-      "kind" : "localSourceControl",
-      "location" : "/Users/nicholasarner/Development-Active/Freelance/Roboflow/roboflow-swift",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/roboflow/roboflow-swift",
       "state" : {
         "branch" : "main",
-        "revision" : "4cf2a9f3dd2fb261c44987a4b4c119bb62598955"
+        "revision" : "87e93bb0e4e6bcacc527accd966ae53f97500432"
       }
     }
   ],

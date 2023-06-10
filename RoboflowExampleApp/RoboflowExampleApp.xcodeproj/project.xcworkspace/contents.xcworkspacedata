@@ -2,6 +2,6 @@
 <Workspace
    version = "1.0">
    <FileRef
-      location = "self:/Users/nicholasarner/Development-Active/Freelance/Roboflow/roboflow-swift-examples/RoboflowExampleApp/RoboflowExampleApp.xcodeproj">
+      location = "self:">
    </FileRef>
 </Workspace>
