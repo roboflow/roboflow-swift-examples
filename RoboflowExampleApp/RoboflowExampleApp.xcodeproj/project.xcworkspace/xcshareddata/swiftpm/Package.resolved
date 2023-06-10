@@ -1,0 +1,14 @@
+{
+  "pins" : [
+    {
+      "identity" : "roboflow-swift",
+      "kind" : "localSourceControl",
+      "location" : "/Users/nicholasarner/Development-Active/Freelance/Roboflow/roboflow-swift",
+      "state" : {
+        "branch" : "main",
+        "revision" : "4cf2a9f3dd2fb261c44987a4b4c119bb62598955"
+      }
+    }
+  ],
+  "version" : 2
+}

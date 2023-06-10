@@ -1,0 +1,638 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		E451C22C2A2FF5360068F80E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E451C22B2A2FF5360068F80E /* AppDelegate.swift */; };
+		E451C22E2A2FF5360068F80E /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E451C22D2A2FF5360068F80E /* SceneDelegate.swift */; };
+		E451C2302A2FF5360068F80E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E451C22F2A2FF5360068F80E /* ViewController.swift */; };
+		E451C2332A2FF5360068F80E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E451C2312A2FF5360068F80E /* Main.storyboard */; };
+		E451C2352A2FF5370068F80E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E451C2342A2FF5370068F80E /* Assets.xcassets */; };
+		E451C2382A2FF5370068F80E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E451C2362A2FF5370068F80E /* LaunchScreen.storyboard */; };
+		E451C2432A2FF5370068F80E /* RoboflowExampleAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E451C2422A2FF5370068F80E /* RoboflowExampleAppTests.swift */; };
+		E451C24D2A2FF5370068F80E /* RoboflowExampleAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E451C24C2A2FF5370068F80E /* RoboflowExampleAppUITests.swift */; };
+		E451C24F2A2FF5370068F80E /* RoboflowExampleAppUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E451C24E2A2FF5370068F80E /* RoboflowExampleAppUITestsLaunchTests.swift */; };
+		E451C25D2A2FF5480068F80E /* Roboflow in Frameworks */ = {isa = PBXBuildFile; productRef = E451C25C2A2FF5480068F80E /* Roboflow */; };
+		E451C25F2A2FF5A60068F80E /* DispatchTimeInterval+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = E451C25E2A2FF5A60068F80E /* DispatchTimeInterval+Extension.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		E451C23F2A2FF5370068F80E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E451C2202A2FF5360068F80E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E451C2272A2FF5360068F80E;
+			remoteInfo = RoboflowExampleApp;
+		};
+		E451C2492A2FF5370068F80E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E451C2202A2FF5360068F80E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E451C2272A2FF5360068F80E;
+			remoteInfo = RoboflowExampleApp;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		E451C2282A2FF5360068F80E /* RoboflowExampleApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RoboflowExampleApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E451C22B2A2FF5360068F80E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		E451C22D2A2FF5360068F80E /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		E451C22F2A2FF5360068F80E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		E451C2322A2FF5360068F80E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		E451C2342A2FF5370068F80E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		E451C2372A2FF5370068F80E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		E451C2392A2FF5370068F80E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E451C23E2A2FF5370068F80E /* RoboflowExampleAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RoboflowExampleAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E451C2422A2FF5370068F80E /* RoboflowExampleAppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoboflowExampleAppTests.swift; sourceTree = "<group>"; };
+		E451C2482A2FF5370068F80E /* RoboflowExampleAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RoboflowExampleAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E451C24C2A2FF5370068F80E /* RoboflowExampleAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoboflowExampleAppUITests.swift; sourceTree = "<group>"; };
+		E451C24E2A2FF5370068F80E /* RoboflowExampleAppUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoboflowExampleAppUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		E451C25E2A2FF5A60068F80E /* DispatchTimeInterval+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "DispatchTimeInterval+Extension.swift"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E451C2252A2FF5360068F80E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E451C25D2A2FF5480068F80E /* Roboflow in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E451C23B2A2FF5370068F80E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E451C2452A2FF5370068F80E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E451C21F2A2FF5360068F80E = {
+			isa = PBXGroup;
+			children = (
+				E451C22A2A2FF5360068F80E /* RoboflowExampleApp */,
+				E451C2412A2FF5370068F80E /* RoboflowExampleAppTests */,
+				E451C24B2A2FF5370068F80E /* RoboflowExampleAppUITests */,
+				E451C2292A2FF5360068F80E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		E451C2292A2FF5360068F80E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E451C2282A2FF5360068F80E /* RoboflowExampleApp.app */,
+				E451C23E2A2FF5370068F80E /* RoboflowExampleAppTests.xctest */,
+				E451C2482A2FF5370068F80E /* RoboflowExampleAppUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E451C22A2A2FF5360068F80E /* RoboflowExampleApp */ = {
+			isa = PBXGroup;
+			children = (
+				E451C22B2A2FF5360068F80E /* AppDelegate.swift */,
+				E451C22D2A2FF5360068F80E /* SceneDelegate.swift */,
+				E451C22F2A2FF5360068F80E /* ViewController.swift */,
+				E451C25E2A2FF5A60068F80E /* DispatchTimeInterval+Extension.swift */,
+				E451C2312A2FF5360068F80E /* Main.storyboard */,
+				E451C2342A2FF5370068F80E /* Assets.xcassets */,
+				E451C2362A2FF5370068F80E /* LaunchScreen.storyboard */,
+				E451C2392A2FF5370068F80E /* Info.plist */,
+			);
+			path = RoboflowExampleApp;
+			sourceTree = "<group>";
+		};
+		E451C2412A2FF5370068F80E /* RoboflowExampleAppTests */ = {
+			isa = PBXGroup;
+			children = (
+				E451C2422A2FF5370068F80E /* RoboflowExampleAppTests.swift */,
+			);
+			path = RoboflowExampleAppTests;
+			sourceTree = "<group>";
+		};
+		E451C24B2A2FF5370068F80E /* RoboflowExampleAppUITests */ = {
+			isa = PBXGroup;
+			children = (
+				E451C24C2A2FF5370068F80E /* RoboflowExampleAppUITests.swift */,
+				E451C24E2A2FF5370068F80E /* RoboflowExampleAppUITestsLaunchTests.swift */,
+			);
+			path = RoboflowExampleAppUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E451C2272A2FF5360068F80E /* RoboflowExampleApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E451C2522A2FF5370068F80E /* Build configuration list for PBXNativeTarget "RoboflowExampleApp" */;
+			buildPhases = (
+				E451C2242A2FF5360068F80E /* Sources */,
+				E451C2252A2FF5360068F80E /* Frameworks */,
+				E451C2262A2FF5360068F80E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RoboflowExampleApp;
+			packageProductDependencies = (
+				E451C25C2A2FF5480068F80E /* Roboflow */,
+			);
+			productName = RoboflowExampleApp;
+			productReference = E451C2282A2FF5360068F80E /* RoboflowExampleApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		E451C23D2A2FF5370068F80E /* RoboflowExampleAppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E451C2552A2FF5370068F80E /* Build configuration list for PBXNativeTarget "RoboflowExampleAppTests" */;
+			buildPhases = (
+				E451C23A2A2FF5370068F80E /* Sources */,
+				E451C23B2A2FF5370068F80E /* Frameworks */,
+				E451C23C2A2FF5370068F80E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E451C2402A2FF5370068F80E /* PBXTargetDependency */,
+			);
+			name = RoboflowExampleAppTests;
+			productName = RoboflowExampleAppTests;
+			productReference = E451C23E2A2FF5370068F80E /* RoboflowExampleAppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		E451C2472A2FF5370068F80E /* RoboflowExampleAppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E451C2582A2FF5370068F80E /* Build configuration list for PBXNativeTarget "RoboflowExampleAppUITests" */;
+			buildPhases = (
+				E451C2442A2FF5370068F80E /* Sources */,
+				E451C2452A2FF5370068F80E /* Frameworks */,
+				E451C2462A2FF5370068F80E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E451C24A2A2FF5370068F80E /* PBXTargetDependency */,
+			);
+			name = RoboflowExampleAppUITests;
+			productName = RoboflowExampleAppUITests;
+			productReference = E451C2482A2FF5370068F80E /* RoboflowExampleAppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E451C2202A2FF5360068F80E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1430;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					E451C2272A2FF5360068F80E = {
+						CreatedOnToolsVersion = 14.3.1;
+					};
+					E451C23D2A2FF5370068F80E = {
+						CreatedOnToolsVersion = 14.3.1;
+						TestTargetID = E451C2272A2FF5360068F80E;
+					};
+					E451C2472A2FF5370068F80E = {
+						CreatedOnToolsVersion = 14.3.1;
+						TestTargetID = E451C2272A2FF5360068F80E;
+					};
+				};
+			};
+			buildConfigurationList = E451C2232A2FF5360068F80E /* Build configuration list for PBXProject "RoboflowExampleApp" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = E451C21F2A2FF5360068F80E;
+			packageReferences = (
+				E451C25B2A2FF5480068F80E /* XCRemoteSwiftPackageReference "roboflow-swift" */,
+			);
+			productRefGroup = E451C2292A2FF5360068F80E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E451C2272A2FF5360068F80E /* RoboflowExampleApp */,
+				E451C23D2A2FF5370068F80E /* RoboflowExampleAppTests */,
+				E451C2472A2FF5370068F80E /* RoboflowExampleAppUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E451C2262A2FF5360068F80E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E451C2382A2FF5370068F80E /* LaunchScreen.storyboard in Resources */,
+				E451C2352A2FF5370068F80E /* Assets.xcassets in Resources */,
+				E451C2332A2FF5360068F80E /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E451C23C2A2FF5370068F80E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E451C2462A2FF5370068F80E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E451C2242A2FF5360068F80E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E451C2302A2FF5360068F80E /* ViewController.swift in Sources */,
+				E451C22C2A2FF5360068F80E /* AppDelegate.swift in Sources */,
+				E451C22E2A2FF5360068F80E /* SceneDelegate.swift in Sources */,
+				E451C25F2A2FF5A60068F80E /* DispatchTimeInterval+Extension.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E451C23A2A2FF5370068F80E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E451C2432A2FF5370068F80E /* RoboflowExampleAppTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E451C2442A2FF5370068F80E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E451C24D2A2FF5370068F80E /* RoboflowExampleAppUITests.swift in Sources */,
+				E451C24F2A2FF5370068F80E /* RoboflowExampleAppUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		E451C2402A2FF5370068F80E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E451C2272A2FF5360068F80E /* RoboflowExampleApp */;
+			targetProxy = E451C23F2A2FF5370068F80E /* PBXContainerItemProxy */;
+		};
+		E451C24A2A2FF5370068F80E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E451C2272A2FF5360068F80E /* RoboflowExampleApp */;
+			targetProxy = E451C2492A2FF5370068F80E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		E451C2312A2FF5360068F80E /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E451C2322A2FF5360068F80E /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		E451C2362A2FF5370068F80E /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E451C2372A2FF5370068F80E /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		E451C2502A2FF5370068F80E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		E451C2512A2FF5370068F80E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E451C2532A2FF5370068F80E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 7SBQ39NG7G;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = RoboflowExampleApp/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.roboflow.RoboflowExampleApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		E451C2542A2FF5370068F80E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 7SBQ39NG7G;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = RoboflowExampleApp/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.roboflow.RoboflowExampleApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		E451C2562A2FF5370068F80E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 7SBQ39NG7G;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.roboflow.RoboflowExampleAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RoboflowExampleApp.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/RoboflowExampleApp";
+			};
+			name = Debug;
+		};
+		E451C2572A2FF5370068F80E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 7SBQ39NG7G;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.roboflow.RoboflowExampleAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RoboflowExampleApp.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/RoboflowExampleApp";
+			};
+			name = Release;
+		};
+		E451C2592A2FF5370068F80E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 7SBQ39NG7G;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.roboflow.RoboflowExampleAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = RoboflowExampleApp;
+			};
+			name = Debug;
+		};
+		E451C25A2A2FF5370068F80E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 7SBQ39NG7G;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.roboflow.RoboflowExampleAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = RoboflowExampleApp;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E451C2232A2FF5360068F80E /* Build configuration list for PBXProject "RoboflowExampleApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E451C2502A2FF5370068F80E /* Debug */,
+				E451C2512A2FF5370068F80E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E451C2522A2FF5370068F80E /* Build configuration list for PBXNativeTarget "RoboflowExampleApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E451C2532A2FF5370068F80E /* Debug */,
+				E451C2542A2FF5370068F80E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E451C2552A2FF5370068F80E /* Build configuration list for PBXNativeTarget "RoboflowExampleAppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E451C2562A2FF5370068F80E /* Debug */,
+				E451C2572A2FF5370068F80E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E451C2582A2FF5370068F80E /* Build configuration list for PBXNativeTarget "RoboflowExampleAppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E451C2592A2FF5370068F80E /* Debug */,
+				E451C25A2A2FF5370068F80E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		E451C25B2A2FF5480068F80E /* XCRemoteSwiftPackageReference "roboflow-swift" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "file:///Users/nicholasarner/Development-Active/Freelance/Roboflow/roboflow-swift";
+			requirement = {
+				branch = main;
+				kind = branch;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		E451C25C2A2FF5480068F80E /* Roboflow */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = E451C25B2A2FF5480068F80E /* XCRemoteSwiftPackageReference "roboflow-swift" */;
+			productName = Roboflow;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = E451C2202A2FF5360068F80E /* Project object */;
+}
