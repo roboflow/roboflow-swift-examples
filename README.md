@@ -11,13 +11,9 @@ Currently there is one example that this with a model trained to detect events i
 
 
 
- 
+ ![Example GIF](https://github.com/roboflow/roboflow-swift-examples/blob/main/README_Resources/RockPaperScissorsExample.gif)
 
-
-
-
-
-To use the app, add your Roboflow API key at line 15 of `ViewController.swift` 
+To use the example app, add your Roboflow API key at line 15 of `ViewController.swift`. You can access your API key [here.](https://docs.roboflow.com/rest-api)
 
 
 
