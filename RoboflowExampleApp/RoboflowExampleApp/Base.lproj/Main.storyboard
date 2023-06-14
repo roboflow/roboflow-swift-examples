@@ -22,7 +22,7 @@
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="FPS" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="NdG-c4-UPD">
                                         <rect key="frame" x="252" y="690" width="111" height="29"/>
                                         <constraints>
-                                            <constraint firstAttribute="width" constant="111" id="lJW-f0-tna"/>
+                                            <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="111" id="uNi-Nl-8HD"/>
                                         </constraints>
                                         <fontDescription key="fontDescription" type="system" pointSize="24"/>
                                         <nil key="textColor"/>
@@ -31,7 +31,7 @@
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Class" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="XgU-Kt-YTs">
                                         <rect key="frame" x="35" y="690" width="111" height="29"/>
                                         <constraints>
-                                            <constraint firstAttribute="width" constant="111" id="MNk-p8-unP"/>
+                                            <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="111" id="pcf-d3-iWg"/>
                                         </constraints>
                                         <fontDescription key="fontDescription" type="system" pointSize="24"/>
                                         <nil key="textColor"/>
@@ -40,10 +40,11 @@
                                 </subviews>
                                 <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                                 <constraints>
-                                    <constraint firstAttribute="bottom" secondItem="XgU-Kt-YTs" secondAttribute="bottom" constant="74" id="2ht-sj-a4M"/>
-                                    <constraint firstItem="XgU-Kt-YTs" firstAttribute="baseline" secondItem="NdG-c4-UPD" secondAttribute="baseline" id="Lcw-OO-9Ct"/>
-                                    <constraint firstItem="XgU-Kt-YTs" firstAttribute="leading" secondItem="I77-Dq-113" secondAttribute="leading" constant="35" id="ctI-gf-Dl4"/>
-                                    <constraint firstAttribute="trailing" secondItem="NdG-c4-UPD" secondAttribute="trailing" constant="30" id="nqd-eG-GcP"/>
+                                    <constraint firstAttribute="trailing" secondItem="NdG-c4-UPD" secondAttribute="trailing" constant="30" id="MbY-51-mlu"/>
+                                    <constraint firstItem="XgU-Kt-YTs" firstAttribute="leading" secondItem="I77-Dq-113" secondAttribute="leading" constant="35" id="MsE-4O-Ntp"/>
+                                    <constraint firstItem="XgU-Kt-YTs" firstAttribute="baseline" secondItem="NdG-c4-UPD" secondAttribute="baseline" id="b8w-LA-mu1"/>
+                                    <constraint firstAttribute="bottom" secondItem="XgU-Kt-YTs" secondAttribute="bottom" constant="74" id="e9G-z6-Gda"/>
+                                    <constraint firstItem="NdG-c4-UPD" firstAttribute="leading" relation="greaterThanOrEqual" secondItem="XgU-Kt-YTs" secondAttribute="trailing" constant="8" symbolic="YES" id="fDr-0t-ecK"/>
                                 </constraints>
                             </view>
                         </subviews>
